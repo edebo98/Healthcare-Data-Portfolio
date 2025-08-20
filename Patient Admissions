@@ -1,1 +1,10 @@
 
+SELECT TOP 5 * FROM Hospital_Readmission;
+
+
+SELECT COUNT(*) AS TotalRows FROM Hospital_Readmission;
+
+
+SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'Hospital_Readmission';
+
